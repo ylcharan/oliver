@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  text-transform: uppercase;
+  span {
+    cursor: pointer;
+    margin: 50px 20px;
+    font-size: 16px;
+  }
+  &:last-child {
+    margin-right: 30px;
+  }
+}

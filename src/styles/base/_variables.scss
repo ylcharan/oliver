@@ -1,0 +1,19 @@
+.divider {
+  width: 90% !important;
+  border-top: 1px solid rgb(131, 131, 131);
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  transform: translateY(12%);
+}
+
+.flex-clm {
+  display: flex;
+  flex-direction: column;
+}

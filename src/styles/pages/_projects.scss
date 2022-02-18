@@ -1,0 +1,52 @@
+.projects {
+  width: 100%;
+  height: max-content;
+  .dot {
+    background-color: #000;
+  }
+  .divider {
+    border-top: 1px solid #000;
+  }
+  &__wrapper {
+    padding: 100px;
+  }
+  &__title {
+    margin: 20px;
+    font-size: 20px;
+  }
+  &__sub {
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    .divider {
+      border-top: 1px solid rgb(199, 198, 198);
+    }
+    &__wrapper {
+      display: flex;
+      transform: translateX(10%);
+      margin: 50px 0;
+    }
+    &__title {
+      font-family: "gallery-modren";
+      font-size: 5vw;
+      text-transform: uppercase;
+      margin: 0;
+      &__inner {
+        font-family: "gallery-modren";
+        font-size: 5vw;
+        line-height: 5vw;
+        text-transform: uppercase;
+      }
+    }
+    span {
+      color: rgb(131, 131, 131);
+      font-size: 25px;
+      margin: 20px;
+    }
+    &:hover {
+      transform: translate(-5%);
+    }
+  }
+}
