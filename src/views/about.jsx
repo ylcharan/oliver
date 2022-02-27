@@ -3,7 +3,7 @@ const About = () => {
     <div className="about">
       <div className="about__wrapper">
         <div className="about__title">
-          <span class="dot"></span> ABOUT ME
+          <span className="dot"></span> ABOUT ME
         </div>
         <div className="divider"></div>
         <div className="about__sub">

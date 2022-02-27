@@ -23,10 +23,13 @@
         font-family: "gallery-modren";
         font-size: 10vw;
         &:first-child {
-          transform: translateX(-30%);
+          transform: translateX(-25%);
+        }
+        &:nth-child(2) {
+          transform: translateX(20%);
         }
         &:last-child {
-          transform: translateX(50%);
+          transform: translateX(35%);
         }
       }
     }
